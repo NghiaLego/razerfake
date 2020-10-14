@@ -1,0 +1,244 @@
+.row1-pro-main{
+    display: flex;
+}
+.row1-pro-main .left{
+    width: 80%;
+    /* background: url(../img/product/keyboard2.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover; */
+    background-color: black;
+}
+/* .row1-pro-main .left>img{
+    display: none;
+    width: 100%;
+} */
+.row1-pro-main .right{
+    width: 20%;
+    padding: 30px;
+    background-color: black;
+    color: white;
+}
+.row1-pro-main .right h3{
+    padding-top: 50px;
+    color: #44d62c;
+    padding-bottom: 20px;
+}
+.row1-pro-main .right p{
+    font-weight: lighter;
+    font-size: medium;
+}
+.row1-pro-main .right h2{
+    padding-top: 30px;
+    font-size: x-large;
+    padding-bottom: 40px;
+}
+.row1-pro-main .right ul{
+    color: #999;
+    padding-bottom: 30px;
+}
+.row1-pro-main .right h4{
+    width: 100%;
+    border: #44d62c solid 1px;
+    border-radius: 3px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    text-align: center;
+    color: black;
+    background-color: #44d62c;
+}
+.row2-pro{
+    height: 250px;
+    background-color: #44d62c;
+    color: black;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.row2-pro h3{
+    font-weight: lighter;
+    padding-bottom: 20px;
+    font-size: x-large;
+}
+.row2-pro p{
+    font-weight: lighter;
+}
+.row3-pro {
+    background: url(../img/product/razer-blackwidow-v3-pro-usp01-desktop.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 580px;
+}
+.image-row3{
+    display: none;
+    width: 100%;
+    clear: both;
+}
+.image-row3 img{
+    width: 100%;
+}
+.row3-pro .content-row3{
+    margin-left: 60%;
+    margin-right: 20%;
+    padding-top: 150px;
+}
+.row3-pro .content-pro{
+    width: 350px;
+}
+.row3-pro h3{
+    color: #44d62c;
+    width: 100%;
+    font-size: xx-large;
+}
+.row3-pro p{
+    padding-top: 20px;
+    color: #999;
+}
+.row3-pro a{
+    color: white;
+    text-decoration: none;
+}
+.row4-pro {
+    color: white;
+    background: url(../img/product/warranty-panel-2-years-desktop.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 280px;
+}
+.row4-pro .content-row4{
+    margin-left: 43%;
+    margin-right: 20%;
+    padding-top: 100px;
+}
+.row4-pro .content-row4 h3{
+    color: #44d62c;
+    font-size: xx-large;
+    font-weight: lighter;
+}
+.row4-pro .content-row4 p{
+    color: #999;
+    padding-top: 10px;
+}
+.row4-pro .content-row4>p>a{
+    color: #44d62c;
+    text-decoration: none;
+}
+.image-row4{
+    display: none;
+    width: 100%;
+    clear: both;
+}
+.image-row4 img{
+    width: 100%;
+}
+.row5-pro{
+    color: #999;
+    background-color: black;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.row5-pro .main-pro{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.row5-pro .main-pro h3{
+    color: #44d62c;
+    font-weight: lighter;
+    font-size: x-large;
+}
+.row5-pro .main-pro .box{
+    display: flex;
+    text-align: left;
+}
+.row5-pro .left{
+    width: 50%;
+    margin: 5px;
+    padding: 20px;
+    background-color: #222;
+    height: 150px;
+    letter-spacing: 1px;
+}
+.row5-pro .right{
+    width: 50%;
+    margin: 5px;
+    padding: 20px;
+    background-color: #222;
+    height: 150px;
+    letter-spacing: 1px;
+}
+.row5-pro p{
+    color: white;
+    font-size: larger;
+    padding-bottom: 10px;
+}
+.row5-pro a{
+    color: #44d62c;
+    text-decoration: none;
+}
+@media (max-width:500px){
+    .row1-pro-main{
+        flex-direction: column;
+    }
+    .row1-pro-main .left{
+        width: 100%;
+        min-height: 300px;
+
+    }
+    /* .row1-pro-main .left img{
+        display: block;
+        width: 100%;
+    } */
+    .row1-pro-main .right{
+        width: 100%;
+        padding: 0px;
+    }
+    .row1-pro-main .right h3{
+        padding-top: 10px;
+    }
+    .row2-pro{
+        height: 200px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-top: 10px;
+    }
+    .row3-pro{
+        background: none;
+        height: auto;
+    }
+    .row3-pro .content-row3{
+        margin-left: 0%;
+        margin-right: 0%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        text-align: center;
+        background-color: black;
+    }
+    .row3-pro .content-pro{
+        width: 100%;
+    }
+    .image-row3{
+        display: block;
+    }
+    .row5-pro{
+        display: none;
+    }
+    .row4-pro{
+        background: none;
+        height: auto;
+    }
+    .row4-pro .content-row4{
+        margin-left: 0%;
+        margin-right: 0%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        text-align: center;
+        background-color: black;
+    }
+    .image-row4{
+        display: block;
+    }
+}

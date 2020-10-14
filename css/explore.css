@@ -1,0 +1,180 @@
+.row1-exp{
+    color: white;
+    clear: both;
+    text-align: center;
+    background: url(../img/explore/team-razer-hero-desktop.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    display: block;
+}
+.row2-exp{
+    background-color: black;
+    color: white;
+    clear: both;
+    text-align: center;
+    height: 300px;
+    display: block;
+}
+.content-exp{
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-top: 80px;
+}
+.content-exp>.big-title-exp{
+    color: #999;
+}
+.content-exp>p img{
+    height: 3rem;
+}
+.content-exp>.mini-title-exp{
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+.row3-exp{
+    color: white;
+    clear: both;
+    background: url(../img/explore/razer-team-web-page-banner-2020-desktop.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+    display: block;
+}
+.row3-exp-main{
+    padding-left: 30%;
+    padding-top: 50px;
+}
+.row3-exp-main h1{
+    font-size: 35px;
+}
+.row3-exp-main h3{
+    color: black;
+    font-size: 25px;   
+}
+.row3-exp-main p{
+    padding-top: 10px;
+    color: black;   
+}
+.row4-exp{
+    color: #44d624;
+    padding-left: 15%;
+    padding-right: 15%;
+    margin-bottom: 30px;
+}
+.row4-exp .box{
+    display: flex;
+    width: 100%;
+}
+.row4-exp h2{
+    padding-top: 30px;
+    margin: 10px;
+}
+.row4-exp .box .box1{
+    width: 33%;
+    background-color: black;
+    margin: 10px;
+    text-align: center;
+}
+.row4-exp .box .box2{
+    width: 33%;
+    background-color: black;
+    margin: 10px;
+    text-align: center;
+
+}
+.row4-exp .box .box3{
+    width: 33%;
+    background-color: black;
+    margin: 10px;
+    text-align: center;
+
+}
+.row4-exp .box img{
+    width: 80%;
+}
+.row5-exp{
+    color: black;
+    clear: both;
+    background: url(../img/explore/whatsappstickers-feature-webpg-dev.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    display: block;
+}
+.row5-exp-main{
+    margin-left: 47%;
+    padding-top: 140px;
+}
+.row5-exp-main h3{
+    font-size: 30px;
+}
+.row5-exp-main img{
+    padding: 20px;
+}
+.image-row5{
+    display: none;
+}
+.image-row5 img{
+    width: 100%;
+}
+@media (max-width:500px){
+    .row2-exp{
+        height: auto;
+    }
+    .content-exp{
+        margin-left: 0%;
+        margin-right: 0%;
+        padding-top: 10px;
+    }
+    .row3-exp-main{
+        padding-left: 5px;
+        padding-top: 20px;
+    }
+    .row3-exp-main h1{
+        font-size: 35px;
+    }
+    .row3-exp-main h3{
+        color: black;
+        font-size: 25px;   
+    }
+    .row3-exp-main p{
+        padding-top: 10px;
+        color: black;   
+    }
+    .image-row5{
+        display: block;
+    }
+    .row5-exp{
+        background: none;
+    }
+    .row5-exp-main{
+        color: #44d624;
+        background-color: black;
+        margin-left: 0%;
+        padding-top: 5px;
+    }
+    .row5-exp-main h3{
+        font-size: 30px;
+    }
+    .row5-exp-main img{
+        padding: 0px;
+        padding-left: 0px;
+    }
+    .row4-exp .box{
+        flex-direction: column;
+    }
+    .row4-exp .box .box1{
+        width: 100%;
+    }
+    .row4-exp .box .box2{
+        width: 100%;
+    
+    }
+    .row4-exp .box .box3{
+        width: 100%;
+    
+    }
+}

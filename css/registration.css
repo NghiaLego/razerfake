@@ -1,0 +1,192 @@
+.reg-row1{
+    color: white;
+    clear: both;
+    background: url(../img/img-product-reg/reg1.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 450px;
+    display: block;
+
+}
+.reg-row1-main{
+    width: auto;
+    padding-top: 9%;
+    padding-left: 60%;
+}
+.reg-row1-main>h2{
+    padding-bottom: 5px;
+}
+.reg-row1-main>.reg-row1-mini-title{
+    padding-bottom: 25px;
+}
+.reg-row1-main>.login{  
+    color: black;
+    padding-top: 5px;
+    border: solid green 1px;
+    width: 150px;
+    text-align: -webkit-center;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #44d62c;
+}
+.image-row1{
+    display: none;
+    width: 100%;
+}
+.image-row1 img{
+    width: 100%;
+}
+.reg-row1-main>.login:hover{
+    cursor: pointer;
+}
+.regis{
+    display: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+.reg-row2{
+    color: #999;
+    clear: both;
+    background: url(../img/img-product-reg/product-registration-create-razer-id-desktop.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 450px;
+    display: block;
+}
+.reg-row2-main{
+    padding-top: 5%;
+    padding-left: 60%;
+}
+.reg-row2-main>h2{
+    padding-bottom: 5px;
+    color: #44d62c;
+}
+.reg-row2-main>.reg-row1-mini-title{
+    padding-bottom: 25px;
+}
+.reg-row2-main>.login{
+    margin-top: 10px;
+    color: black;
+    padding-top: 10px;
+    border: solid green 1px;
+    width: 150px;
+    text-align: -webkit-center;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #44d62c;
+}   
+.reg-row3{
+    background-color: white;
+    color: black;
+    clear: both;
+    min-height: 450px;
+    display: block;
+    width: 100%;
+}
+.reg-row3>.box-main{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.reg-row3>.box-main>.title{
+    padding-top: 20px;
+    text-align: center;
+}
+.reg-row3 .box-main .reg-row3-box{
+    display: flex;
+    text-align: center;
+    padding-top: 10px;
+}
+.reg-row3 .box-main .reg-row3-box h4{
+    padding-top: 10px;
+}
+.reg-row3 .box-main .reg-row3-box p{
+    padding-top: 10px;
+}
+.reg-row3 .box-main .reg-row3-box2 h4{
+    padding-top: 10px;
+}
+.reg-row3 .box-main .reg-row3-box2 p{
+    padding-top: 10px;
+}
+.reg-row3 .box-main .reg-row3-box2{
+    display: flex;
+    text-align: center;
+    padding-top: 10px;
+}
+.end-row{
+    color: white;
+    clear: both;
+    text-align: center;
+    background: url(../img/img-product-reg/razer-product-registration-rewards-desktop.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 540px;
+    display: block;
+}
+.end-row>.content-reg{
+    padding-top: 50px;
+}
+.end-row>.content-reg>.mini-title-reg{
+    color: #999;
+}
+.image-row2{
+    display: none;
+    width: 100%;
+}
+.image-row2 img{
+    width: 100%;
+}
+@media (max-width:500px)   {
+    .reg-row1{
+        background: none;
+        height: auto;
+    }
+    .reg-row1-main{
+        width: 100%;
+        height: 150px;
+        padding-top: 10px;
+        padding-left: 0px;
+        background-color: black;
+    }
+    .image-row1{
+        display: block;
+    }
+    .reg-row3-box{
+        flex-direction: column;
+    }
+    .reg-row3-box2{
+        flex-direction: column;
+    }
+    .reg-row3 .left{
+        width: 100%;
+        padding-top: 10px;
+    }
+    .reg-row3 .right{
+        width: 100%;
+        padding-top: 10px;
+    }
+    .reg-row3>.box-main{
+        margin-left: 0%;
+        margin-right: 0%;
+        padding-bottom: 10px;
+    }
+    .image-row2 {
+        display: block;
+    }
+    .reg-row2{
+        background: none;
+        height: auto;
+    }
+    .reg-row2-main{
+        width: 100%;
+        height: 300px;
+        padding-top: 0%;
+        padding-left: 0%;
+        background-color: black;
+    }
+}

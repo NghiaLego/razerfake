@@ -1,0 +1,436 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face{
+    font-family: myfont;
+    src: url(../font/razerf5-reg.otf);
+}
+@font-face{
+    font-family: myfont2;
+    src: url(/font/Azonix.otf);
+}
+body {
+    font-family: myfont;
+    background-color: #222;
+}
+.head{
+    width: 100%;
+    position: fixed;
+    position: relative;
+}
+.menu-mobile{
+    padding-top: 5px;
+    display: none;
+}
+.menu-mobile .mobile-left{
+    width: 50%;
+    text-align: left;
+    padding-left: 20px;
+}
+.menu-mobile .mobile-left a{
+    color: #44d62c;
+    font-family: myfont2;
+    font-size: larger;
+    text-decoration: none;
+}
+.menu-mobile .mobile-right{
+    width: 50%;
+    text-align: right;
+    padding-right: 10px;
+}
+.menu-mobile .mobile-right i{
+    color: white;
+}
+.menu-mobile .mobile-right i:hover{
+    cursor: pointer;
+    color: #44d62c;
+}
+.container-full-width {
+    width: 100%;
+}
+.container-full-width>nav{
+    clear: both;
+    text-align: center;
+    line-height: 40px;
+    background-color: #222;
+    color: white;
+}
+.container-full-width>nav .list-menu {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+.menu-item{
+    width: 10%;
+}
+.menu>ul>li{
+    position: relative;
+    list-style: none;
+}
+.menu>ul>li._active a {
+    border-bottom: 2px solid #44d62c;
+    color: #44d62c;
+    font-family: myfont2;
+    font-size: larger;
+}
+/* .menu ul .xyz{
+    position: absolute;
+    display: none;
+    padding: 0px;
+    margin: 0px;
+    border-radius: 3px;
+    width: 800px;
+    background-color: black;
+    box-shadow: 0px 0px 1px gray;
+    z-index: 10;
+} */
+/* .menu ul ul a{
+    display: block;
+    line-height: 30px;
+    color: #999;
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: large;
+    padding: 0px 10px;
+} */
+/* .menu>ul>li:hover .xyz{
+    display: flex;
+} */
+.menu>ul>li:hover a{
+    color: white;
+}
+.title>p{
+    color: white;
+}
+.menu ul ul a:hover{
+    background-color: black;
+}
+.sub-menu>li:hover {
+    color: #44d62c;
+    cursor: pointer;
+}
+.menu>ul>li>a{
+    color:#999;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: .9rem;
+    padding: 10px 10px; 
+}
+/* .sub-menu{
+    min-width: 20%;
+    color: #999;
+    font-size: small;
+    background-color: black;
+    list-style: none;
+    text-align: left;
+    padding-left: 30px;
+} */
+
+.cart{
+    display: flex;
+    align-items: center;
+}
+.row1{
+    color: white;
+    clear: both;
+    text-align: center;
+    background: url(../img/razer-wireless-flaship-hero-desktop.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 75vh;
+    display: block;
+}
+.content{
+    font-family: myfont;
+    justify-content: center;
+    padding: 5%;
+}
+.content>p{
+    font-family: myfont;
+
+}
+.big-title{
+    font-size: 40px;
+    color: #999;
+    padding-bottom: 5px;
+}
+.mini-title{
+    padding-top: 30px;
+    color: white;
+    font-weight: bold;
+}
+.arrow{
+    color: #44d62c;
+}
+.cart:hover{
+    color: #44d62c;
+    cursor: pointer;
+}
+.cart{
+    width: 100%;
+    padding: 10px 18px;
+    font-size: 130%;
+    color: #999;
+}.cart i{
+    width: 100%;
+}
+.row2{
+    color: white;
+    clear: both;
+    text-align: center;
+    background: url(../img/row2.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 75vh;
+    display: block;
+}
+.row3{
+    color: white;
+    clear: both;
+    text-align: center;
+    background: url(../img/row3.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 75vh;
+    display: block;
+}
+footer{
+    clear: both;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.main-foot{
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 25 30 25 30px;
+}
+.foot1{
+    color: white;
+    display: flex;
+}
+.foot1-left-row1{
+    display: flex;
+}
+.foot1-left-row2{
+    display: flex;
+}
+.foot1-content{
+    display: flex;
+}
+.foot1-content ul{
+    display: flex;
+}
+.foot1-content ul li{
+    list-style: none;
+    margin-top: 12px;
+    color: #999;
+}
+label{
+    margin-top: 12px;
+    margin-right: 12px;
+}
+.foot1-right img{
+    height: 1.875rem;
+}
+.foot1-left{
+    width: 70%;
+}
+.foot1-right{
+    width: 30%;
+    padding-top: 12px;
+    padding-left: 24px;
+}
+.history{
+    width: 100%;
+    clear: both;
+    color: white;
+}
+.history>ul{
+    display: flex;
+    list-style: none;
+}
+.history>ul>li{
+    margin-left: 10px;
+}
+.row4 {
+    color: white;
+    clear: both;
+    text-align: center;
+}
+.row4-2side{
+    display: flex;
+    height: 600px;
+}
+.row4-2side .content-left{
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    padding-top: 3%;
+    width: 50%;
+    font-family: myfont;
+    justify-content: center;
+    background: url(../img/razer-blackwidow-v3-b-954x580-desktop.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.row4-2side .content-right{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    padding-top: 3%;
+    width: 50%;
+    font-family: myfont;
+    justify-content: center;
+    background: url(../img/quartz-mercury-home-b-desktop.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.row5 {
+    color: white;
+    clear: both;
+    text-align: center;
+}
+.row5-2side{
+    display: flex;
+    height: 600px;
+}
+.row5-2side .content-left{
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    padding-top: 3%;
+    width: 50%;
+    font-family: myfont;
+    justify-content: center;
+    background: url(../img/stayhomegame-950x580-desktop.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.row5-2side .content-right{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    padding-top: 3%;
+    width: 50%;
+    font-family: myfont;
+    justify-content: center;
+    background: url(../img/b-blade-15-954x580-desktop.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.row6 {
+    color: white;
+    clear: both;
+    text-align: center;
+}
+.row6-2side{
+    display: flex;
+    height: 600px;
+}
+.row6-2side .content-left{
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    padding-top: 3%;
+    width: 50%;
+    font-family: myfont;
+    justify-content: center;
+    background: url(../img/choose-your-blade-b-954x580-desktop.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.row6-2side .content-right{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    padding-top: 3%;
+    width: 50%;
+    font-family: myfont;
+    justify-content: center;
+    background: url(../img/razer-insider-b-950x580-desktop.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@media (max-width:500px){
+    .row5-2side{
+        height: auto;
+        display: block;
+    }
+    .row5-2side .content-left{
+        width: 100%;
+        height: 400px;
+    }
+    .row4-2side{
+        height: auto;
+        display: block;
+    }
+    .row4-2side .content-left{
+        width: 100%;
+        height: 400px;
+    }
+    .row6-2side{
+        height: auto;
+        display: block;
+    }
+    .row6-2side .content-left{
+        width: 100%;
+        height: 400px;
+    }
+    .row5-2side .content-right{
+        width: 100%;
+        height: 400px;
+    }
+    .row4-2side .content-right{
+        width: 100%;
+        height: 400px;
+    }
+    .row6-2side .content-right{
+        width: 100%;
+        height: 400px;
+    }
+    .big-title{
+        font-size: 30px;
+    }
+    .menu>ul>li._active a{
+        display: none;
+    }
+    .container-full-width .menu ul li:nth-child(6){
+        display: none;
+    }
+    .container-full-width>nav .list-menu {
+        justify-content: unset;
+    }
+    .menu-item{
+        width: 24%;
+    }
+    .main-foot{
+        margin-left: 0%;
+        margin-right: 0%;
+        padding: 0px;
+    }
+    .foot1{
+        display: block;
+    }
+    .foot1-left{
+        display: none;
+    }
+    .foot1-content ul{
+        display: flex;
+        flex-direction: column;
+    }
+    .foot1-right{
+        width: 100%;
+        text-align: center;
+        padding: 0px;
+    }
+    .menu-mobile{
+        display: flex;
+    }
+}

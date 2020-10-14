@@ -1,0 +1,7 @@
+@font-face{
+    font-family: myfont;
+    src: url(razerf5-reg.otf);
+}
+body {
+    font-family: myfont;
+}
