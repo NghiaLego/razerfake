@@ -433,4 +433,10 @@ label{
     .menu-mobile{
         display: flex;
     }
-}
+    .slideshow-container{
+        height: 100px;
+    }
+    .row1-pro-main .left {
+        min-height: 0px;
+    }
+}   
